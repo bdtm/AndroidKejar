@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.boedioetomo.login.DataRegistrasi">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:text="NIK :"
+        />
+    <TextView
+        android:id="@+id/nik_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:text="Nama :"
+        />
+    <TextView
+        android:id="@+id/nama_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="15dp"
+        android:text="Jenis kelamin :"
+        />
+    <TextView
+        android:id="@+id/JK_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="15dp"
+        android:text="Jurusan :"
+        />
+    <TextView
+        android:id="@+id/jurusan_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:text="Hobi :"
+        />
+    <TextView
+        android:id="@+id/hobi_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/hobi_value2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/hobi_value3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text=""
+        />
+</LinearLayout>
